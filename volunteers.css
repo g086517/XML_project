@@ -1,0 +1,59 @@
+h1 {color: blue}
+h3 {color: brown}
+
+#container {
+	max-width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+body {
+	background-color: #EEE8AA;
+}
+
+table {
+	width: 90%;
+	border-collapse: collapse;
+	font-family: 'Open Sans', sans serif;
+	background: #336ca6;
+	font-size: 14px;
+	color: white;
+	}
+
+td.narrow {
+	width: 5%;
+	text-align: center;
+	}
+	
+td.medium {
+	width: 10%;
+	}
+
+td.wide {
+	width: 20%;
+	}
+
+/*zebra striping */
+	tr.nth-of-type(odd) {
+		background: #2d5f92;
+	}
+	
+	th {
+		background: #2d5f92;
+		color: white;
+		font-weight: normal;
+		font-size: 14px;
+		background: #2d5f92;
+		font-family:'Bitter', serif;
+		padding: 1em;
+		test-align: center;
+	}
+
+	/*
+	Label the data
+	*/
+	
+	
+
+
+	

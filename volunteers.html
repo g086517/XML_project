@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <xsl:output method="html" encoding="UTF-8"/>
+      <link href="volunteers.css" rel="stylesheet" type="text/css">
+      <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'> 
+	
+      <title>Chickasaw Fundraiser</title>
+
+   <script language="javascript">
+   function loadXMLDoc(dname)
+   {
+      if (window.XMLHttpRequest)
+      {
+         xhttp=new XMLHttpRequest();
+      }
+      else
+      {
+         xhttp=new ActiveXObject("Microsoft.XMLHTTP");
+      }
+         xhttp.open("GET",dname,false);
+   try {xhttp.responseType = "msxml-document"} catch(err) {} // Helping IE11
+   xhttp.sent("");
+   return xhttp.responseXML;
+   }
+   function displayResult()
+   {
+      //var xml;
+      //var xsl;
+      //var ex;
+      //var resultDocument
+
+
+      xml = loadXMLDoc("volunteers.xml");
+      xsl = loadXMLDoc("volunteers.xsl");
+      // code for IE
+      if (window.ActiveXObject)
+      {
+         ex=xml.transformNode(xsl);
+         document.getElementById("example").innerHTML=ex;
+      }
+	
+      // code for Mozilla, FireFox, Opera, etc.
+      else if (document.implementation && document.implementation.createDocument)
+
+      {
+         xsltProcessor=new XSLTProcessor();
+         xsltProcessor.importStylesheet(xsl);
+         resultDocument = xsltProcessor.transformToFragment(xml,document);
+         document.getElementById("example").appendChild(resultDocument):
+      }
+   }
+   </script>
+
+
+   </head>
+   <body onload="displayResult()">
+   <div id = "container">
+
+      <header>
+         <h1>Chickasaw Center Fundraiser & Volunteers</h1>
+			
+         <p>The Chickasaw Senior Center holds a monthly fundraising event: an Indian taco sale. Customers travel from all over Duncan and the neighboring towns to enjoy the authentic tacos.</p>
+
+         <ul>
+            <li>Location: Chickasaw Senior Center, Duncan, OK</li>
+	    <li>Dates: Second Friday of the month</li>
+	    <li>Hours: 10:30 a.m. - 1:30 p.m.</li>
+	 </ul>
+      </header>
+		
+      <nav>
+         <ul>
+            <li><a href="volunteers.xml">Volunteers</a></li>
+	 </ul>
+      </nav>
+   <div id="example" />
+   </div>	
+
+   </body>
+   </html>
