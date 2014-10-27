@@ -16,26 +16,31 @@
 		<table>
   				<tr>
    					<th>Name</th>
-   					<th>Type</th>
-					<th>Role</th>
    					<th>Gender</th>
-   					<th>Previous Career</th>
-   					<th>Tribe</th>
-   					<th>Veteran</th>
    					<th>Spouse</th>
-					
+   					<th>Volunteer Area</th>
+					<th>Volunteer Role</th>
+   					<th>Previous Career</th>
+   					<th>Veteran</th>
+   					<th>Military Branch</th>
+   					<th>Native American</th>
+   					<th>Tribe</th>
+   								
   				</tr>
 			<xsl:for-each select="member">
+				<xsl:sort select="name/last"/>
 				<tr>
 					<td><xsl:value-of select="name" /></td>
+					<td><xsl:value-of select="gender" /></td>
+					<td><xsl:value-of select="spouse" /></td>
 					<td><xsl:value-of select="position/type" /></td>
 					<td><xsl:value-of select="position/role" /></td>
-					<td><xsl:value-of select="gender" /></td>
 					<td><xsl:value-of select="pre-retirement" /></td>
-					<td><xsl:value-of select="native_american" /></td>
-					<td><xsl:value-of select="veteran" /></td>
-					<td><xsl:value-of select="spouse" /></td>
-				
+			    	<td><xsl:value-of select="veteran/military_service" /></td>
+					<td><xsl:value-of select="veteran/branch" /></td>
+					<td><xsl:value-of select="heritage/native_american" /></td>
+					<td><xsl:value-of select="heritage/tribe" /></td>
+
 				</tr>
 			</xsl:for-each>
 		</table>

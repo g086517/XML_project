@@ -12,18 +12,20 @@
 		<pre-retirement>
 		    <career>bank teller</career>
 		</pre-retirement>
-		<native_american>
+		<heritage>
+			<native_american>yes</native_american>
 		    <tribe>Cherokee</tribe>
-		</native_american>
+		</heritage>
 		<veteran>   
-		    <military_service>n/a</military_service>
+		    <military_service>no</military_service>
+		    <branch>n/a</branch>
 		</veteran> 
 		<spouse>
 		    <spouse_name>Richard</spouse_name>
 		</spouse>
 	    <position>			
-		     <type>food</type>
-		     <role>event organizer:; dough mixer, server</role>
+		     <type>all</type>
+		     <role>event organizer; dough mixer</role>
 	    </position>
 	</member>
 
@@ -38,17 +40,20 @@
 		<pre-retirement>
 		     <career>technician</career>
 		</pre-retirement>
-		<native_american>
+		<heritage>
+		     <native_american>no</native_american>
 		     <tribe>n/a</tribe>
-		</native_american>
+		</heritage>
 		<veteran> 
-		     <military_service>Army</military_service>
+		     <military_service>yes</military_service>
+		     <branch>Army</branch>
 		</veteran> 
 		<spouse>
 		     <spouse_name>Jerrie</spouse_name>
 		</spouse>
 		<position>
-		     <role>non-food: ticket seller</role>
+			 <type>non-food</type>
+		     <role>ticket seller</role>
 	    </position>
 	</member>
 
@@ -62,19 +67,22 @@
 			<male_female>M</male_female>
 		</gender>		
 		<pre-retirement>
-		   <career>architect</career>
+		   <career>accountant</career>
 		</pre-retirement>
-		<native_american>
+		<heritage>
+		   <native_american>yes</native_american>
 		   <tribe>Chicasaw</tribe>
-		</native_american>
+		</heritage>
 		<veteran> 
-		   <military_service>n/a</military_service>
+		   <military_service>no</military_service>
+		   <branch>n/a</branch>
 		</veteran> 
 		<spouse>
 		     <spouse_name>Jean Anne</spouse_name>
 		</spouse>
 		<position>
-		   <role>non-food: ticket seller</role>
+		   <type>non-food</type>
+		   <role>ticket seller</role>
 	    </position>
 	</member>
 	
@@ -88,19 +96,22 @@
 			<male_female>M</male_female>
 		</gender>		
 		<pre-retirement>
-		   <career>unknown</career>
+		   <career>high school teacher</career>
 		</pre-retirement>
-		<native_american>
+		<heritage>
+		   <native_american>yes</native_american>
 		   <tribe>Choctaw</tribe>
-		</native_american>
+		</heritage>
 		<veteran> 
-		   <military_service>n/a</military_service>
+		   <military_service>no</military_service>
+		   <branch>n/a</branch>
 		</veteran> 
 		<spouse>
 		     <spouse_name>n/a</spouse_name>
 		</spouse>
 		<position>
-		   <role>food: meat cooker</role>
+		   <type>food</type>	
+		   <role>cook (meat)</role>
 	    </position>
 	</member>
 
@@ -113,19 +124,22 @@
 			<male_female>F</male_female>
 		</gender>		
 		<pre-retirement>
-		   <career>unknown</career>
+		   <career>elementary teacher</career>
 		</pre-retirement>
-		<native_american>
+		<heritage>
+		   <native_american>no</native_american>
 		   <tribe>n/a</tribe>
-		</native_american>
+		</heritage>
 		<veteran> 
-		   <military_service>n/a</military_service>
+		   <military_service>no</military_service>
+		   <branch>n/a</branch>
 		</veteran>  
 		<spouse>  
 		     <spouse_name>Blue</spouse_name>
 		</spouse>
 		<position>
-		   <role>non-food: table cleaner</role>
+		   <type>non-food</type>	
+		   <role>table cleaner</role>
 	    </position>
 	</member>
 
@@ -139,19 +153,22 @@
 			<male_female>M</male_female>
 		</gender>		
 		<pre-retirement>
-		   <career>government worker</career>
+		   <career>manager</career>
 		</pre-retirement>
-		<native_american>
+		<heritage>
+           <native_american>yes</native_american>
 		   <tribe>Creek</tribe>
-		</native_american>
+		</heritage>
 		<veteran> 
-		   <military_service>n/a</military_service>
+		   <military_service>no</military_service>
+		   <branch>n/a</branch>
 	    </veteran>
 	    <spouse> 
 		     <spouse_name>Sandy</spouse_name>
 		</spouse>
 		<position>
-		   <role>food: bean cooker, food preparer</role>
+		   <type>food</type>
+		   <role>drink server</role>
 	    </position>
 	</member>    
 	<member>
@@ -164,19 +181,22 @@
 			<male_female>M</male_female>
 		</gender>		
 		<pre-retirement>
-		   <career>unknown</career>
+		   <career>electrical assembler</career>
 		</pre-retirement>
-		<native_american>
+		<heritage>
+		   <native_american>yes</native_american> 
 		   <tribe>Chickasaw</tribe>
-		</native_american>   
+		</heritage>
 		<veteran>    
-		   <military_service>n/a</military_service>
+		   <military_service>no</military_service>
+		   <branch>n/a</branch>
 		</veteran> 
 		<spouse>
 		     <spouse_name>Betty</spouse_name>
 		</spouse>
 		<position>
-		   <role>non-food: table busser</role>
+		   <type>non-food</type>	
+		   <role>table busser</role>
 	    </position>
 	</member>
 
@@ -190,19 +210,22 @@
 			<male_female>F</male_female>
 		</gender>		
 		<pre-retirement>
-		   <career>unknown</career>
+		   <career>quality analyst</career>
 		</pre-retirement>
-		<native_american>
+		<heritage>
+		   <native_american>no</native_american>
 		   <tribe>n/a</tribe>
-		</native_american>
+		</heritage>
 		<veteran> 
-		   <military_service>n/a</military_service>
+		   <military_service>no</military_service>
+		   <branch>n/a</branch>
 		</veteran> 
 		<spouse>
 		     <spouse_name>Lloyd</spouse_name>
 		</spouse>
 		<position>
-		   <role>non-food: ticket seller</role>
+		   <type>non-food</type>
+		   <role>ticket seller</role>
 	    </position>
 	</member>
 
@@ -216,19 +239,22 @@
 			<male_female>M</male_female>
 		</gender>		
 		<pre-retirement>
-		   <career>unknown</career>
+		   <career>mechanical technician</career>
 		</pre-retirement>
-		<native_american>
+		<heritage>
+		   <native_american>no</native_american>
 		   <tribe>n/a</tribe>
-		</native_american>
+		</heritage>
 		<veteran>    
-		   <military_service>n/a</military_service>
+		   <military_service>no</military_service>
+		   <branch>n/a</branch>
 		</veteran> 
 		<spouse>
 		     <spouse_name>Glenda</spouse_name>
 		</spouse>
 		<position>
-		   <role>non-food: table busser</role>
+		   <type>non-food</type>	
+		   <role>table busser</role>
 	    </position>
 	</member>
 
@@ -242,13 +268,15 @@
 			<male_female>F</male_female>
 		</gender>		
 		<pre-retirement>
-		   <career>unknown</career>
+		   <career>administrative assistant</career>
 		</pre-retirement>
-		<native_american>
+		<heritage>
+		   <native_american>yes</native_american>
 		   <tribe>Chickasaw</tribe>
-		</native_american>
+		</heritage>
 		<veteran> 
-		   <military_service>n/a</military_service>
+		   <military_service>no</military_service>
+		   <branch>n/a</branch>
 		</veteran> 
 		<spouse>
 		     <spouse_name>Bently</spouse_name>
@@ -269,19 +297,22 @@
 			<male_female>F</male_female>
 		</gender>		
 		<pre-retirement>
-		   <career>unknown</career>
+		   <career>restaurant owner</career>
 		</pre-retirement>
-		<native_american>
+		<heritage>
+		   <native_american>yes</native_american>
 		   <tribe>Chickasaw</tribe>
-		</native_american>
+		</heritage>
 		<veteran> 
-		   <military_service>n/a</military_service>
+		   <military_service>no</military_service>
+		   <branch>n/a</branch>
 		</veteran> 
 		<spouse>
 		     <spouse_name>Tom</spouse_name>
 		</spouse>
 		<position>
-		   <role>food: leader in kitchen</role>
+		   <type>food</type>
+		   <role>leader in kitchen</role>
 	    </position>
 	</member>
 
@@ -294,44 +325,50 @@
 			<male_female>M</male_female>
 		</gender>		
 		<pre-retirement>
-		   <career>engineer</career>
+		   <career>restaurant owner</career>
 		</pre-retirement>
-		<native_american>
+		<heritage>
+		   <native_american>yes</native_american>
 		   <tribe>Chickasaw</tribe>
-		</native_american>
+		</heritage>
 		<veteran> 
-		   <military_service>n/a</military_service>
+		   <military_service>yes</military_service>
+		   <branch>Army</branch>
 		</veteran> 
 		<spouse>
 		     <spouse_name>Bernadine</spouse_name>
 		</spouse>
 		<position>
-		   <role>food: bean cooker, food preparer</role>
+		   <type>food</type>
+		   <role>cook (beans)</role>
 	    </position>
 	</member>
 	<member>
 		<name>
-			<first>Erma</first>
-			<last>Hansen</last>
+			<first>Ed</first>
+			<last>Cox</last>
 		</name>
 	
 		<gender>
-			<male_female>F</male_female>
+			<male_female>M</male_female>
 		</gender>		
 		<pre-retirement>
-		   <career>unknown</career>
+		   <career>high school coach</career>
 		</pre-retirement>
-		<native_american>
-		   <tribe>Hopi</tribe>
-		</native_american>
+		<heritage>
+		   <native_american>yes</native_american>
+		   <tribe>Comanche</tribe>
+		</heritage>
 		<veteran> 
-		   <military_service>n/a</military_service>
+		   <military_service>no</military_service>
+		   <branch>n/a</branch>
 		</veteran> 
 		<spouse>
-		     <spouse_name>Lloyd</spouse_name>
+		     <spouse_name>n/a</spouse_name>
 		</spouse>
 		<position>
-		   <role>unknown</role>
+		   <type>food</type>	
+		   <role>drink server</role>
 	    </position>
 	</member>
 	<member>
@@ -344,19 +381,22 @@
 			<male_female>M</male_female>
 		</gender>		
 		<pre-retirement>
-		   <career>unknown</career>
+		   <career>high school teacher</career>
 		</pre-retirement>
-		<native_american>
+		<heritage>
+		   <native_american>yes</native_american>
 		   <tribe>Choctaw</tribe>
-		</native_american>
+		</heritage>
 		<veteran> 
-		   <military_service>n/a</military_service>
+		   <military_service>no</military_service>
+		   <branch>n/a</branch>
 		</veteran> 
 		<spouse>
 		     <spouse_name>n/a</spouse_name>
 		</spouse>
 		<position>
-		   <role>non-food: greeter</role>
+		   <type>non-food</type>
+		   <role>greeter</role>
 	    </position>
 	</member>
 
@@ -370,19 +410,22 @@
 			<male_female>F</male_female>
 		</gender>		
 		<pre-retirement>
-		   <career>unknown</career>
+		   <career>post office clerk</career>
 		</pre-retirement>
-		<native_american>
+		<heritage>
+		   <native_american>yes</native_american>
 		   <tribe>Chicasaw</tribe>
-		</native_american>
+		</heritage>
 		<veteran> 
-		   <military_service>n/a</military_service>
+		   <military_service>no</military_service>
+		   <branch>n/a</branch>
 		</veteran> 
 		<spouse>
 		     <spouse_name>Melvin</spouse_name>
 		</spouse>
 		<position>
-		   <role>food: drink preparer</role>
+		   <type>food</type>
+		   <role>drink server</role>
 	    </position>
 	</member>
 
@@ -398,17 +441,20 @@
 		<pre-retirement>
 		   <career>postal worker</career>
 		</pre-retirement>
-		<native_american>
+		<heritage>
+		   <native_american>no</native_american>
 		   <tribe>n/a</tribe>
-		</native_american>
+		</heritage>
 		<veteran> 
-		   <military_service>n/a</military_service>
+		   <military_service>no</military_service>
+		   <branch>n/a</branch>
 		</veteran> 
 		<spouse>
 		     <spouse_name>Kathy</spouse_name>
 		</spouse>
 		<position>
-		   <role>food: server</role>
+		   <type>food</type>
+		   <role>server</role>
 	    </position>
 	</member>
 
@@ -422,19 +468,51 @@
 			<male_female>M</male_female>
 		</gender>
 		<pre-retirement>
-		   <career>sharpshooter</career>
+		   <career>operating technician</career>
 		</pre-retirement>
-		<native_american>
+		<heritage>
+		   <native_american>yes</native_american>
 		   <tribe>Chicasaw</tribe>
-		</native_american>
+		</heritage>
 		<veteran> 
-		   <military_service>Army</military_service>
+		   <military_service>yes</military_service>
+		   <branch>Army</branch>
 		</veteran> 
 		<spouse>
-		     <spouse_name>get name</spouse_name>
+		     <spouse_name>Nicki</spouse_name>
 		</spouse>
 		<position>
-		   <role>food: bread fryer</role>
+		   <type>food</type>
+		   <role>bread fryer</role>
+	    </position>
+	</member>
+
+	<member>
+		<name>
+			<first>Nicki</first>
+			<last>Garrett</last>
+		</name>
+	
+		<gender>
+			<male_female>F</male_female>
+		</gender>
+		<pre-retirement>
+		   <career>secretary (employed)</career>
+		</pre-retirement>
+		<heritage>
+		   <native_american>yes</native_american>
+		   <tribe>Chicasaw</tribe>
+		</heritage>
+		<veteran> 
+		   <military_service>no</military_service>
+		   <branch>n/a</branch>
+		</veteran> 
+		<spouse>
+		     <spouse_name>Wayne</spouse_name>
+		</spouse>
+		<position>
+		   <type>food</type>
+		   <role>dough roller</role>
 	    </position>
 	</member>
 
@@ -447,19 +525,22 @@
 			<male_female>M</male_female>
 		</gender>
 		<pre-retirement>
-		   <career>unknown</career>
+		   <career>telephone lineman</career>
 		</pre-retirement>
-		<native_american>
+		<heritage>
+		   <native_american>no</native_american>
 		   <tribe>n/a</tribe>
-		</native_american>
+		</heritage>
 		<veteran> 
-		   <military_service>Air Force</military_service>
+		   <military_service>yes</military_service>
+		   <branch>Air Force</branch>
 		</veteran> 
 		<spouse>
 		     <spouse_name>Karen</spouse_name>
 		</spouse>
 		<position>
-		   <role>food: meat cooker, dough mixer</role>
+		   <type>food</type>
+		   <role>meat cooker, dough mixer</role>
 	    </position>
 	</member>
 	<member>
@@ -472,19 +553,22 @@
 			<male_female>F</male_female>
 		</gender>
 		<pre-retirement>
-		   <career>unknown</career>
+		   <career>sales representative</career>
 		</pre-retirement>
-		<native_american>
+		<heritage>
+		   <native_american>yes</native_american>
 		   <tribe>Choctaw</tribe>
-		</native_american>
+		</heritage>
 		<veteran> 
-		   <military_service>n/a</military_service>
+		   <military_service>no</military_service>
+		   <branch>n/a</branch>
 		</veteran> 
 		<spouse>
 		     <spouse_name>Don</spouse_name>
 		</spouse>
 		<position>
-		   <role>food: dough roller</role>
+		   <type>food</type>
+		   <role>dough roller</role>
 	    </position>
 	</member>
 	<member>
@@ -497,19 +581,22 @@
 			<male_female>F</male_female>
 		</gender>
 		<pre-retirement>
-		   <career>unknown</career>
+		   <career>operating supervisor</career>
 		</pre-retirement>
-		<native_american>
+		<heritage>
+		   <native_american>yes</native_american>
 		   <tribe>Potawatomi</tribe>
-		</native_american>
+		</heritage>
 		<veteran> 
-		   <military_service>n/a</military_service>
+		   <military_service>no</military_service>
+		   <branch>n/a</branch>
 		</veteran> 
 		<spouse>
 		     <spouse_name>Bob</spouse_name>
 		</spouse>
 		<position>
-		   <role>food: leader of take out station; non-food: co-treasurer</role>
+		   <type>all</type>
+		   <role>leader of take out orders; co-treasurer</role>
 	    </position>
 	</member>
 
@@ -523,19 +610,22 @@
 			<male_female>M</male_female>
 		</gender>
 		<pre-retirement>
-		   <career>unknown</career>
+		   <career>equipment technician</career>
 		</pre-retirement>
-		<native_american>
+		<heritage>
+		   <native_american>no</native_american>
 		   <tribe>n/a</tribe>
-		</native_american>
+		</heritage>
 		<veteran> 
-		   <military_service>n/a</military_service>
+		   <military_service>no</military_service>
+		   <branch>n/a</branch>
 		</veteran> 
 		<spouse>
 		     <spouse_name>Barbara</spouse_name>
 		</spouse>
 		<position>
-		   <role>food: meat cooker</role>
+		   <type>food</type>
+		   <role>meat cooker</role>
 	    </position>
 	</member>
 
@@ -549,19 +639,22 @@
 			<male_female>F</male_female>
 		</gender>
 		<pre-retirement>
-		   <career>unknown</career>
+		   <career>sales representative</career>
 		</pre-retirement>
-		<native_american>
-		   <tribe>unknown</tribe>
-		</native_american>
+		<heritage>
+		   <native_american>yes</native_american>
+		   <tribe>Hopi</tribe>
+		</heritage>
 		<veteran> 
-		   <military_service>n/a</military_service>
+		   <military_service>no</military_service>
+		   <branch>n/a</branch>
 		</veteran> 
 		<spouse>
 		     <spouse_name>David</spouse_name>
 		</spouse>
 		<position>
-		   <role>food: dessert server, kitchen cleaner</role>
+		   <type>food</type>
+		   <role>dessert server, kitchen cleaner</role>
 	    </position>
 	</member>
 
@@ -575,19 +668,22 @@
 			<male_female>M</male_female>
 		</gender>
 		<pre-retirement>
-		   <career>unknown</career>
+		   <career>social worker</career>
 		</pre-retirement>
-		<native_american>
-		   <tribe>unknown</tribe>
-		</native_american>
+		<heritage>
+		   <native_american>no</native_american>
+		   <tribe>n/a</tribe>
+		</heritage>
 		<veteran> 
-		   <military_service>n/a</military_service>
+		   <military_service>no</military_service>
+		   <branch>n/a</branch>
 		</veteran> 
 		<spouse>
 		     <spouse_name>Erma</spouse_name>
 		</spouse>
 		<position>
-		    <role>non-food: table busser</role>
+			<type>non-food</type>
+		    <role>table busser</role>
 	    </position>
 	</member>
 
@@ -601,19 +697,22 @@
 			<male_female>F</male_female>
 		</gender>
 		<pre-retirement>
-		   <career>unknown</career>
+		   <career>nurse</career>
 		</pre-retirement>
-		<native_american>
+		<heritage>
+		   <native_american>yes</native_american>
 		   <tribe>Comanche</tribe>
-		</native_american>
+		</heritage>
 		<veteran> 
-		   <military_service>n/a</military_service>
+		   <military_service>no</military_service>
+		   <branch>n/a</branch>
 		</veteran> 
 		<spouse>
 		     <spouse_name>n/a</spouse_name>
 		</spouse>
 		<position>
-		   <role>food: drink server</role>
+		   <type>food</type>
+		   <role>drink server</role>
 	    </position>
 	</member>
 
@@ -626,19 +725,22 @@
 			<male_female>F</male_female>
 		</gender>
 		<pre-retirement>
-		   <career>unknown</career>
+		   <career>nurse</career>
 		</pre-retirement>
-		<native_american>
+		<heritage>
+		   <native_american>yes</native_american>
 		   <tribe>Comanche</tribe>
-		</native_american>
+		</heritage>
 		<veteran> 
-		   <military_service>n/a</military_service>
+		   <military_service>no</military_service>
+		   <branch>n/a</branch>
 		</veteran> 
 		<spouse>
 		     <spouse_name>n/a</spouse_name>
 		</spouse>
 		<position>
-		   <role>unknown</role>
+		   <type>food</type>
+		   <role>dessert server</role>
 	    </position>
 	</member>
 
@@ -652,19 +754,22 @@
 			<male_female>F</male_female>
 		</gender>
 		<pre-retirement>
-		   <career>unknown</career>
+		   <career>customer service representative</career>
 		</pre-retirement>
-		<native_american>
+		<heritage>
+		   <native_american>yes</native_american>
 		   <tribe>Comanche</tribe>
-		</native_american>
+		</heritage>
 		<veteran> 
-		   <military_service>n/a</military_service>
+		   <military_service>no</military_service>
+		   <branch>n/a</branch>
 		</veteran> 
 		<spouse>
 		     <spouse_name>n/a</spouse_name>
 		</spouse>
 		<position>
-		   <role>food: take-out station server</role>
+		   <type>food</type>
+		   <role>food preparer</role>
 	    </position>
 	</member>
 
@@ -678,19 +783,22 @@
 			<male_female>F</male_female>
 		</gender>
 		<pre-retirement>
-		   <career>technical writer (employeed)</career>
+		   <career>technical writer (employed)</career>
 		</pre-retirement>
-		<native_american>
+		<heritage>
+		   <native_american>yes</native_american>
 		   <tribe>Cherokee</tribe>
-		</native_american>
+		</heritage>
 		<veteran> 
-		   <military_service>n/a</military_service>
+		   <military_service>no</military_service>
+		   <branch>n/a</branch>
 		</veteran> 
 		<spouse>
 		     <spouse_name>Gary</spouse_name>
 		</spouse>
 		<position>
-		   <role>food: dough roller, drink server; non-food: table busser</role>
+		   <type>all</type>
+		   <role>dough roller, table busser</role>
 	    </position>
 	</member>
 
@@ -704,19 +812,22 @@
 			<male_female>M</male_female>
 		</gender>
 		<pre-retirement>
-		   <career>unknown</career>
+		   <career>auto mechanic</career>
 		</pre-retirement>
-		<native_american>
+		<heritage>
+		   <native_american>yes</native_american>
 		   <tribe>Chickasaw</tribe>
-		</native_american>
+		</heritage>
 		<veteran> 
-		   <military_service>Air Force</military_service>
+		   <military_service>yes</military_service>
+		   <branch>Air Force</branch>
 		</veteran> 
 		<spouse>
 		     <spouse_name>Dee</spouse_name>
 		</spouse>
 		<position>
-		   <role>food: dishwasher</role>
+		   <type>all</type>
+		   <role>dishwasher, co-treasurer</role>
 		</position>
 	</member>
 
@@ -730,19 +841,168 @@
 			<male_female>F</male_female>
 		</gender>
 		<pre-retirement>
-		   <career>document analyst (employeed)</career>
+		   <career>document analyst (employed)</career>
 		</pre-retirement>
-		<native_american>
+		<heritage>
+		   <native_american>yes</native_american>
 		   <tribe>Choctaw</tribe>
-		</native_american>
+		</heritage>
 		<veteran> 
-		   <military_service>n/a</military_service>
+		   <military_service>no</military_service>
+		   <branch>n/a</branch>
 		</veteran> 
 		<spouse>
-		     <spouse_name>n/a</spouse_name>
+		     <spouse_name>Dwayne</spouse_name>
 		</spouse>
 		<position>
-		   <role>non-food: table cleaner</role>
+		   <type>non-food</type>
+		   <role>table cleaner</role>
 	    </position>
 	</member>
+
+	<member>
+		<name>
+			<first>John</first>
+			<last>Redding</last>
+		</name>
+	
+		<gender>
+			<male_female>M</male_female>
+		</gender>
+		<pre-retirement>
+		   <career>university faculty</career>
+		</pre-retirement>
+		<heritage>
+		   <native_american>yes</native_american>
+		   <tribe>Choctaw</tribe>
+		</heritage>
+		<veteran> 
+		   <military_service>yes</military_service>
+		   <branch>Army</branch>
+		</veteran> 
+		<spouse>
+		     <spouse_name>Jane</spouse_name>
+		</spouse>
+		<position>
+		   <type>non-food</type>
+		   <role>souvenir seller</role>
+	    </position>
+	</member>
+
+	<member>
+		<name>
+			<first>Jane</first>
+			<last>Redding</last>
+		</name>
+	
+		<gender>
+			<male_female>F</male_female>
+		</gender>
+		<pre-retirement>
+		   <career>university faculty</career>
+		</pre-retirement>
+		<heritage>
+		   <native_american>no</native_american>
+		   <tribe>n/a</tribe>
+		</heritage>
+		<veteran> 
+		   <military_service>no</military_service>
+		   <branch>n/a</branch>
+		</veteran> 
+		<spouse>
+		     <spouse_name>John</spouse_name>
+		</spouse>
+		<position>
+		   <type>food</type>
+		   <role>dough mixer</role>
+	    </position>
+	</member>
+
+	<member>
+		<name>
+			<first>Jim</first>
+			<last>Baker</last>
+		</name>
+	
+		<gender>
+			<male_female>M</male_female>
+		</gender>
+		<pre-retirement>
+		   <career>engineer</career>
+		</pre-retirement>
+		<heritage>
+		   <native_american>yes</native_american>
+		   <tribe>Cherokee</tribe>
+		</heritage>
+		<veteran> 
+		   <military_service>yes</military_service>
+		   <branch>Army</branch>
+		</veteran> 
+		<spouse>
+		     <spouse_name>Mary</spouse_name>
+		</spouse>
+		<position>
+		   <type>non-food</type>
+		   <role>table busser</role>
+	    </position>
+	</member>
+
+	<member>
+		<name>
+			<first>Anita</first>
+			<last>Baumgartner</last>
+		</name>
+	
+		<gender>
+			<male_female>F</male_female>
+		</gender>
+		<pre-retirement>
+		   <career>elementary teacher</career>
+		</pre-retirement>
+		<heritage>
+		   <native_american>yes</native_american>
+		   <tribe>Potawatomi</tribe>
+		</heritage>
+		<veteran> 
+		   <military_service>no</military_service>
+		   <branch>n/a</branch>
+		</veteran> 
+		<spouse>
+		     <spouse_name>Bob</spouse_name>
+		</spouse>
+		<position>
+		   <type>food</type>
+		   <role>food preparer</role>
+	    </position>
+	</member>
+
+    <member>
+		<name>
+			<first>Jack</first>
+			<last>Whitfield</last>
+		</name>
+	
+		<gender>
+			<male_female>M</male_female>
+		</gender>
+		<pre-retirement>
+		   <career>carpenter</career>
+		</pre-retirement>
+		<heritage>
+		   <native_american>yes</native_american>
+		   <tribe>Chickasaw</tribe>
+		</heritage>
+		<veteran> 
+		   <military_service>yes</military_service>
+		   <branch>Navy</branch>
+		</veteran> 
+		<spouse>
+		     <spouse_name>Dorothy</spouse_name>
+		</spouse>
+		<position>
+		   <type>food</type>
+		   <role>dessert server</role>
+	    </position>
+	</member>
+
 </volunteers>
