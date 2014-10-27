@@ -1,0 +1,30 @@
+Project 2: Database for Chickasaw Center Volunteers
+
+I created a database of 35 people who volunteer each month at the Chickasaw Center’s fundraiser event. Volunteers work the fundraiser to earn points and reduce costs of future trips. The database displays in a table to show names, roles, and additional details about each person. This report explains 
+•  how end users will use the table
+•  why I selected certain  variables
+•  which style elements I selected and why
+•  what I learned from the project
+End User and the Table’s Purpose
+Leaders and members will use this table to determine coverage, identify training opportunities, and learn about the other members. Before electing new fundraiser officers, members could use this table to identify skills and future leaders. Also, the manager of the center could use this table to identify volunteer openings. 
+
+Additionally, members are interested to see this table because they do not have access to membership/volunteer information. At social functions, they talk about their previous jobs, military experience, and their heritage, but they never captured the information for their own purposes. I plan to present this database to them in December 2014.  
+
+Variables and the Content’s Purpose
+Each variable in the table has a purpose related to volunteers’ roles at fundraiser events, participation on senior trips, and membership at the Chickasaw Center.
+•  Name/Spouse/Native American – Volunteers must be registered Native Americans or a member of the Chickasaw Center. Members must be registered Native Americans or married to registered Native Americans. Membership ends if the Native American dies and the surviving spouse is not a registered Native American. 
+•  Gender – On trips, members traveling alone will bunk with other seniors of the same gender. 
+•  Volunteer Area/Volunteer Role/Previous Career/Veteran – Volunteers work in food/non-food areas. For scheduling purposes, leaders need to know who has already been cleared to work in food areas (tetanus shot), their skills, and previous experience. Also, these details help members select candidates for officer/leadership positions. 
+The XML file contains details about each volunteer under the parent tag “member.” The “name” tag is divided into child tags (“first” and “last”) because I may incorporate a sort function later. The “gender” parent tag has a child tag “male_female.” The “pre-retirement” tag has a child tag “career” and this content publishes under “Previous Career.” The three non-retired volunteers are noted as “employed.” To display military details, one parent tag (“veteran”) is set up with two child tags (“military_service” and “branch.”) The parent tag “heritage” has two child tags: “native_american” and “tribe.” Volunteers with “no” under the “Native American” column are married to members with a “yes.” The “tribe” details further show the diverse group. (Any registered Native American can join the Chickasaw Center. Members do not need to be from the Chickasaw tribe.) To categorize volunteer roles, the parent tag “position” has two child tags: “type” (food/non-food/all) and “role” (cook, server, cleaner, etc.)
+
+Styles Applied to the Table
+Senior citizens will use this table and I had them in mind when I selected the styles. 
+•  Colors: I selected blue hues because they are classic and patriotic. Text is easy to read on the soft blue background. When hovering, a row turns yellow to highlight a volunteer. The darker blue colors frame the table and distinguish it from the background. 
+•  Content: Volunteers are alphabetized by last name to make it easier to locate a person.
+•  Rows: Double lines separate the rows. 
+•  Font: The bold sans-serif font distinguishes the header from the table. The table’s content has serif font because the end users are more familiar with serif and it is easier to read. 
+
+Reflection and Conclusion
+This project forced me to learn several new technical skills, and learning technology is important as a technical writer and as a student. I have a better understanding of the relationship between XML, XSL, and CSS. I am more comfortable building a database and applying styles to it. In addition, I am thankful that we had to identify our own content/table’s purpose. While I came up with a few database options, I am pleased with the one I finally decided on because it will be used by multiple people.  
+
+This database will be helpful to the people who volunteer at the Chickasaw Center, as well as those who lead the fundraiser event. Since the data displays in one table, they can use this information to plan and to monitor. As members join/leave the Chickasaw Center, their names and details can easily be added to the XML file.  The table will increase/decrease as details are added.
